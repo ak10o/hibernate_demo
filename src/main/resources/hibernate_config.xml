@@ -16,7 +16,7 @@
 		<property name="connection.pool_size">1</property>
 		
 		<!-- Select our Sql dialect -->
-		<property name="dialect">org.hibernate.dialect.MySW</property>
+		<property name="dialect">org.hibernate.dialect.MySql</property>
 		
 		<!-- Echo the sql to stdout -->
 		<!-- Hibernate prints out the sql when it sends the queries to the actual db. Useful in develop
