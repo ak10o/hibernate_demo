@@ -24,6 +24,11 @@ public class Student {
 	
 	@Column(name = "email")
 	private String email;
+	
+
+	public Student() {
+		super();
+	}
 
 	public Student(String firstName, String lastName, String email) {
 		this.firstName = firstName;
